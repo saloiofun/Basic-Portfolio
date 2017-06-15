@@ -98,6 +98,20 @@ hr {
 	width: 270px;
 }
 
+.social {
+	margin: 0 auto;
+	display: block;
+}
+
+.social ul {
+	text-align: center;
+}
+
+.social ul li {
+	display: inline-block
+}
+
+
 #main-bio, 
 #bio-img {
 	float: left;
@@ -183,20 +197,37 @@ button {
 
 .row {
 	width: 100%;
+	height: 100%;
+	display: inline-block;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.row div:first-child {
+	margin-right: 25px;
+}
+
+.hangman {
+	background: url("http://lorempixel.com/250/200/cats");
+	background-repeat: no-repeat;
 }
 
 .block {
+	float: left;
 	width: 250px;
+	height: 200px;
 	position: relative;
 }
 
 .feature {
-	padding: 20px;
+	padding: 15px 0;
 	text-align: center;
 	background-color: #4aaaa5;
 	color: #fff; 
-	position: relative;
-	bottom: -5px;
+	position: absolute;
+	display: block;
+	bottom: 15px;
+	width: 100%;
 }
 
 .feature h2 {
