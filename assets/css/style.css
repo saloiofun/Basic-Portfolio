@@ -1,6 +1,7 @@
 .Site {
 	color: #777777;
-	background: #999;
+	background-image: url("../images/concrete-texture.png");
+	background-repeat: repeat;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	display: flex;
   	min-height: 100vh;
@@ -111,6 +112,11 @@ hr {
 	display: inline-block
 }
 
+.social ul li img {
+	width: 64px;
+	height: 64px;
+}
+
 
 #main-bio, 
 #bio-img {
@@ -125,6 +131,11 @@ hr {
 }
 
 article {
+	margin: 15px;
+	line-height: 150%;
+}
+
+.contact, .bio {
 	margin: 15px;
 	line-height: 150%;
 }
@@ -205,11 +216,6 @@ button {
 
 .row div:first-child {
 	margin-right: 25px;
-}
-
-.hangman {
-	background: url("http://lorempixel.com/250/200/cats");
-	background-repeat: no-repeat;
 }
 
 .block {
